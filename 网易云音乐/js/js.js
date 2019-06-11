@@ -9,12 +9,12 @@ $.ajax({
 			for(var i = 1; i < t.length; i++) {
 				$(".nav_one_ul").append($("<li><a href='#'>" + t[i] + "</a></li>"));
 			}
-			$(".nav_one_ul>li>a:lt(3)").click(function(){
+		/*	$(".nav_one_ul>li>a:lt(3)").click(function(){
 				alert("该项目由于开发者懒惰，并未开发~");
 			})
 			$(".nav_one_ul>li>a:eq(5)").click(function(){
 				alert("该项目由于开发者懒惰，并未开发~");
-			})
+			})*/
 			$(".nav_one_ul>li>a:eq(4)").attr("href","w_index.html");
 		})
 		/*nav_two*/
