@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.nav_one {
+	height: 70px;
+	margin: 0 auto;
+	background: #242424;
+	border: 1px solid #000;
+}
+
+.main {
+	width: 980px;
+	height: 700px;
+	background: white;
+	position: relative;
+}
+
+.nav_two {
+	width: 100%;
+	height: 5px;
+}
+
+.cor {
+	display: block;
+	position: absolute;
+	left: 134px;
+	top: 66px;
+	width: 12px;
+	height: 7px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: url(../img/topbar.png) no-repeat;
+	background-position: -226px 0;
+}
+
+.m-back {
+	bottom: 193px;
+}
+
+.footer {
+	height: 190px;
+}
+
+.pic {
+	width: 807px;
+	height: 268px;
+	position: absolute;
+	top: 104px;
+	left: 86px;
+	background: url(../img/mymusic.png);
+}

@@ -180,6 +180,15 @@
     word-wrap: normal;
     float: left;
 }
+.dec1{
+	max-width: 76%;
+	height: 19px;
+	vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
 
 .m_span{
 	float: left;

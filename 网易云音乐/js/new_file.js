@@ -9,9 +9,13 @@ $.ajax({
 			for(var i = 1; i < t.length; i++) {
 				$(".header-top-nav-ul").append("<a href='#' class='header-top-a'><li class='header-top-li'>" + t[i] + "</li></a>")
 			}
-			$(".header-top-nav-ul>a:gt(0)").click(function(){
+			$(".header-top-nav-ul>a:eq(4)").click(function(){
 				alert("该项目由于开发者懒惰，并未开发~");
 			})
+			$(".header-top-nav-ul>a:eq(2)").attr("href","wdyy.html");
+			$(".header-top-nav-ul>a:eq(3)").attr("href","py.html");
+			$(".header-top-nav-ul>a:eq(5)").attr("href","w_index.html");
+			$(".header-top-nav-ul>a:eq(6)").attr("href","down.html");
 		})
 		/*hcn*/
 		$.each(data[0].header[1], function(i, t) {
