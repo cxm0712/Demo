@@ -800,7 +800,7 @@ a{
 .back {
     position: fixed;
     bottom: 16.5%;
-    margin-left: 260px;
+    right: 21%;
     width: 49px;
     height: 44px;
     border: solid 1px #D3D3D3;
@@ -809,10 +809,6 @@ a{
     font-size: 12px;
     color: #656665;
     display: none;
-}
-
-.back_n {
-    margin-left: 1176px;
 }
 
 #m-pl-pager{
